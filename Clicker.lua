@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 
 
 local Window = Rayfield:CreateWindow({
-    Name = "*Ziggy's Case Clicker Auto Farm*",
+    Name = "[May 3rd] Ziggy's Case Clicker Auto Farm",
     LoadingTitle = "Ziggy's Case Clicker Auto Farm",
     LoadingSubtitle = "Ziggy#3121",
     ConfigurationSaving = {
@@ -271,8 +271,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT1C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 1 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 1 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -289,8 +291,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT2C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 2 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 2 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -307,8 +311,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT3C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 3 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 3 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -325,8 +331,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT4C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 4 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 4 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -343,8 +351,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT5C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 5 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 5 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -361,8 +371,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT6C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 6 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 6 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -379,8 +391,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT7C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 7 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 7 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -397,8 +411,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT8C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 8 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 8 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -415,8 +431,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT9C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 9 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 9 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -433,8 +451,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT10C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 10 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 10 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -451,8 +471,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT11C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 11 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 11 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -469,8 +491,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT12C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 12 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 12 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -487,8 +511,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenT13C == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Tier 13 Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Tier 13 Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -505,8 +531,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenUC == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Unobtainable Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Unobtainable Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -523,8 +551,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenRC == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Ruby Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Ruby Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -541,8 +571,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenGC == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Golden Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Golden Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -559,8 +591,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenDC == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Diamond Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Diamond Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
@@ -577,8 +611,10 @@ local Toggle = AutoOpenTab:CreateToggle({
         spawn(function()
 
             while _G.AutoOpenEC == true do
-            local args = {[1] = "OpenCase",[2] = {[1] = "Exotic Case",[3] = 1}}
-            game:GetService("ReplicatedStorage").GameObjects.Remotes.RemoteFunction:InvokeServer(unpack(args))
+                local args = {
+                    [1] = "OpenCase",[2] = {[1] = "Exotic Case",[2] = false,[3] = 1},[3] = 8418925}
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("GameObjects"):WaitForChild("Remotes"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
             wait(0.125)
             end
         end)-- The function that takes place when the toggle is pressed
